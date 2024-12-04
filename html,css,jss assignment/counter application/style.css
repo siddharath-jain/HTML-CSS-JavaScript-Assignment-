@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    text-align: center;
+    border: 1px solid black;
+    padding: 4rem 2rem;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    text-transform: capitalize;
+}
+.buttons{
+    margin: 1rem 0;
+}
+.btn{
+    text-transform: capitalize;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: .7rem 1rem;
+    border-radius: .6rem;
+    -webkit-border-radius: .6rem;
+    -moz-border-radius: .6rem;
+    -ms-border-radius: .6rem;
+    -o-border-radius: .6rem;
+}
+span{
+    font-size: 1rem;
+    /* padding: .7rem 1rem; */padding: .7rem 1rem;
+    width: 70px;
+    text-align: center;
+}
